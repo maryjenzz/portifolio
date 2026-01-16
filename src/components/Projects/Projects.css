@@ -1,0 +1,118 @@
+.projects-container {
+  padding: 60px 10%;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.section-title {
+  font-size: 3.5rem; 
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+  width: 100%;
+  justify-content: start; 
+  align-self: flex-start;
+}
+
+.project-thumbnail {
+  position: relative; 
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000; 
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.project-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4; 
+  filter: grayscale(80%); 
+  transition: all 0.5s ease;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.view-button {
+  padding: 12px 25px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+.project-card:hover .project-thumbnail img {
+  filter: grayscale(0%);
+  opacity: 1; 
+  transform: scale(1.1);
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-card:hover .view-button {
+  transform: translateY(0); 
+}
+
+.view-button:hover {
+  background-color: #a0a0a0; 
+  transform: scale(1.05) !important;
+  cursor: pointer;
+}
+
+.project-info h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 20px 0 5px 0;
+  color: #ffffff;
+}
+
+.project-info p {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  line-height: 1.5;
+  text-align: justify;
+  line-height: 1.5;
+  hyphens: auto;
+}
+
+@media (max-width: 1024px) {
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .section-title { font-size: 2.5rem; }
+}
+
+@media (max-width: 600px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}

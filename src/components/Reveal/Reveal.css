@@ -1,0 +1,21 @@
+.reveal-box {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  visibility: hidden;
+}
+
+.reveal-box.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  .reveal-box {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    transition: none;
+  }
+}
