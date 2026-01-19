@@ -72,6 +72,29 @@
   transition: all 0.4s ease;
 }
 
+.github-api-button {
+  padding: 5px 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  border: 1px solid #ffffff;
+}
+
+.project-card:hover .github-api-button {
+  transform: translateY(0);
+}
+
+.github-api-button:hover {
+  background-color: #444d56;
+  transform: scale(1.05) !important;
+}
+
 .project-card:hover .project-thumbnail img {
   filter: grayscale(0%);
   opacity: 1; 

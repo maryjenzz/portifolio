@@ -11,6 +11,7 @@ function App() {
   const profissionais = [
     {
       name: "Arena Máfia",
+      repoName: "arena-react",
       description: "EM DESENVOLVIMENTO: Sistema de agendamento de quadras esportivas e cadastro de campeonatos.",
       image: "/arena.jpeg",
       link: "https://arenamafia.com.br"
@@ -20,30 +21,35 @@ function App() {
   const pessoais = [
     {
       name: "Tic Tac Toe",
+      repoName: "tic-tac-toe",
       description: "Aplicação básica de Jogo da Velha.",
       image: "/tic-tac-toe.png",
       link: "https://maryjenzz.github.io/tic-tac-toe/"
     },
     {
       name: "Flag Game",
+      repoName: "flag-game",
       description: "Jogo interativo onde o objetivo é adivinhar a qual país pertence a bandeira exibida.",
       image: "/flag-game.png",
       link: "https://maryjenzz.github.io/flag-game/"
     },
     {
       name: "To Do List",
+      repoName: "todo-app",
       description: "Lista de tarefas, com o objetivo de simular uma aplicação completa.",
       image: "/todo-app.png",
       link: "https://maryjenzz.github.io/todo-app/"
     },
     {
       name: "Dark Mode",
+      repoName: "dark-mode-react",
       description: "Aplicação Web que demonstra a implementação de um sistema de alternância entre temas (claro e escuro).",
       image: "/dark-mode.png",
       link: "https://maryjenzz.github.io/dark-mode-react/"
     },
     {
       name: "Quotes App",
+      repoName: "quotes-app",
       description: "Projeto que consiste numa aplicação para visualizar citações inspiradoras alimentada por uma API REST personalizada e desenvolvida em Node.js.",
       image: "/quotes-app.png",
       link: "https://maryjenzz.github.io/quotes-app/"
