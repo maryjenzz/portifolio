@@ -1,16 +1,39 @@
-# React + Vite
+# 💻 Portfólio Pessoal - Mylena Jenzura
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal desenvolvido em **React**, projetado com uma estética minimalista e moderna. O objetivo deste projeto é centralizar meus projetos acadêmicos e profissionais, além de listar minhas certificações na área de tecnologia.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O site foi construído seguindo princípios de **UI/UX Design**, com foco em alta performance e responsividade. Atualmente, o portfólio destaca meu progresso como estudante de **Análise e Desenvolvimento de Sistemas** e minha busca por uma oportunidade de estágio em desenvolvimento Web.
 
-## React Compiler
+### Principais Funcionalidades:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Design Minimalista**: Interface limpa focada na legibilidade e impacto visual.
+* **Componentização**: Estrutura organizada em componentes React para facilitar a manutenção (Cover, Home, Projects, Certificates, Footer).
+* **Animações de Scroll**: Uso de *Intersection Observer* para revelação suave de conteúdo apenas em telas maiores.
+* **Overlay de Projetos**: Efeito interativo nos cards de projetos com botões de chamada para ação.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes ferramentas:
+
+* **React.js** (Biblioteca principal).
+* **CSS Modules / CSS3** (Estilização customizada).
+* **Devicon** (Ícones de tecnologias).
+* **Vite** (Build tool rápida e moderna).
+
+---
+
+## Como Ver o Projeto
+
+Acesse em: https://maryjenzz.github.io/portifolio/
+
+---
+
+## ✉️ Contato
+
+* **LinkedIn**: [mylenajenzura](https://www.google.com/search?q=https://linkedin.com/in/mylenajenzura)
+* **GitHub**: [maryjenzz](https://www.google.com/search?q=https://github.com/maryjenzz)
+---
