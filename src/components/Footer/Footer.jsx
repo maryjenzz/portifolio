@@ -15,6 +15,9 @@ const Footer = () => {
                         <a href="https://linkedin.com/in/mylenajenzura/" target="_blank" rel="noreferrer" title="LinkedIn">
                             <i className="devicon-linkedin-plain"></i>
                         </a>
+                        <a href="mailto:mylenamari34@gmail.com" target="_blank" rel="noreferrer" title="Gmail">
+                            <i className="ph ph-envelope"></i>
+                        </a>
                     </div>
                 </div>
 
